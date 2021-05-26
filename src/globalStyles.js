@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
       background-image: ${theme.backgroundColor.secondary};
       background-repeat: no-repeat;
       background-attachment: fixed; 
-    }
+    };
   `}
 
 `

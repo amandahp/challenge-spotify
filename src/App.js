@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonSearch, InputSearch } from './components'
+import { ButtonSearch, InputSearch, ContainerGroup } from './components'
 
 function App() {
   const handleClick = () => {
@@ -13,6 +13,9 @@ function App() {
     <div className="App">
       <InputSearch onChange={handleChange} placeholder="Busca sua música" />
       <ButtonSearch onClick={handleClick}>Buscar</ButtonSearch>
+      <ContainerGroup>
+        <p>TESTE</p>
+      </ContainerGroup>
     </div>
   )
 }
