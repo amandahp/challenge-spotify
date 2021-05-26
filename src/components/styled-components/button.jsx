@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Button = styled.button`
   ${({ theme }) => `
     background-color: ${theme.backgroundColor.primary};
-    color: ${theme.color.default};
+    color: ${theme.color.grey};
     width:  ${theme.baseValueToRem(116)};
     height: ${theme.baseValueToRem(31)};
     border-radius: ${theme.baseValueToRem(6)};

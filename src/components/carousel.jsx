@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 
 import * as S from './styled-components'
 
-export const SimpleSlider = () => {
+export const SimpleSlider = (props) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -12,14 +12,9 @@ export const SimpleSlider = () => {
     slidesToScroll: 1
   }
 
-  const values = ['example', 'example2', 'example3']
   return (
     <S.Slider>
-      <Slider {...settings}>
-        {values.map((value, index) => {
-          return <h1 key={`${index + value}`}>{value}</h1>
-        })}
-      </Slider>
+      <Slider {...settings} {...props}></Slider>
     </S.Slider>
   )
 }
