@@ -2,8 +2,10 @@ import styled from 'styled-components'
 
 export const Slider = styled.div`
   ${({ theme }) => `
+
     .slick-slider{
-      margin-left: ${theme.baseValueToRem(50)}
+      margin-left: ${theme.baseValueToRem(50)};
+      margin-top: ${theme.baseValueToRem(50)};
     };
     .slick-list{
       background-image: ${theme.backgroundColor.grey};

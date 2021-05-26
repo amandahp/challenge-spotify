@@ -19,7 +19,6 @@ function App() {
       <InputSearch onChange={handleChange} placeholder="Busca sua música" />
       <ButtonSearch onClick={handleClick}>Buscar</ButtonSearch>
       <ContainerGroup>
-        <p>TESTE</p>
         <SimpleSlider></SimpleSlider>
       </ContainerGroup>
     </div>
