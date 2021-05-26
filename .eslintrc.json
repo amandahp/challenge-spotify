@@ -21,6 +21,7 @@
     "rules": {
       "react/react-int-jsx-scope":"off",
       "react/prop-types": "off",
+      "types":"off",
       "no-unused-expressions": "off",
       "no-unused-vars": "warn"
     }
