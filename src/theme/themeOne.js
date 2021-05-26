@@ -9,6 +9,7 @@ const defaultValues = {
       'linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(255, 255, 255, 0) 100%), #1A1F1F',
     tertiary: '#1A1F1F',
     default: '#FFF',
+    grey: '#808080',
     background:
       'linear-gradient(108.15deg, #000000 8.8%, #051937 100.55%), #051937'
   },
