@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Button } from './styled-components/button'
+import { Button } from './styled-components'
 
-export const ButtonSearch = (...props) => {
+export const ButtonSearch = (props) => {
   return (
     <>
-      <Button {...props} />
+      <Button {...props}>{props.children}</Button>
     </>
   )
 }

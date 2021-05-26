@@ -1,11 +1,18 @@
 import React from 'react'
-import { ButtonSearch } from './components'
+import { ButtonSearch, InputSearch } from './components'
 
 function App() {
+  const handleClick = () => {
+    console.log('clicou')
+  }
+
+  const handleChange = () => {
+    console.log('handleChange')
+  }
   return (
     <div className="App">
-      <p>teste</p>
-      <ButtonSearch>TESTE</ButtonSearch>
+      <InputSearch onChange={handleChange} placeholder="Busca sua música" />
+      <ButtonSearch onClick={handleClick}>Buscar</ButtonSearch>
     </div>
   )
 }
