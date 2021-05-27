@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Slider = styled.div`
   ${({ theme }) => `
+
     .slick-slider{
       margin-left: ${theme.baseValueToRem(50)};
       margin-top: ${theme.baseValueToRem(50)};
@@ -16,14 +17,18 @@ export const Slider = styled.div`
       border-radius: ${theme.baseValueToRem(4)};
     };
     .slick-next{
-      right: 55px;
+      right: ${theme.baseValueToRem(95)};
     };
+    .slick-dots{
+      margin-left:-26px;
+    }
     .slick-prev {
-      left: 50px;
+      left:${theme.baseValueToRem(50)};
     };
     .slick-next:before, .slick-prev:before {
       opacity: .75;
       color: ${theme.color.grey};
     }
+    
   `}
 `

@@ -7,6 +7,8 @@ import {
   SimpleSlider
 } from '../components'
 
+import { App } from './home.styled'
+
 export const Home = () => {
   const values = ['example', 'example2', 'example3']
 
@@ -18,9 +20,11 @@ export const Home = () => {
     console.log('handleChange')
   }
   return (
-    <div className="App">
-      <InputSearch onChange={handleChange} placeholder="Busca sua música" />
-      <ButtonSearch onClick={handleClick}>Buscar</ButtonSearch>
+    <App className="App">
+      <form>
+        <InputSearch onChange={handleChange} placeholder="Busca sua música" />
+        <ButtonSearch onClick={() => handleClick()}>Buscar</ButtonSearch>
+      </form>
       <ContainerGroup>
         <SimpleSlider>
           {values.map((value, index) => {
@@ -28,6 +32,6 @@ export const Home = () => {
           })}
         </SimpleSlider>
       </ContainerGroup>
-    </div>
+    </App>
   )
 }

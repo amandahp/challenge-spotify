@@ -17,10 +17,10 @@ const defaultValues = {
   backgroundColor: {
     primary: '#00D856',
     secondary:
-      'linear-gradient(to right bottom, #051937, #171228, #190a1a, #12040d, #000000)',
+      'linear-gradient(207deg, rgba(2,0,36,1) 13%, rgba(0,0,0,1) 51%);',
     tertiary: '#1A1F1F',
     default: '#FFF',
-    grey: 'linear-gradient(to left top, #303a3a, #293032, #232629, #1c1c1e, #141314, #202021, #2d2d2e, #3b3b3b, #676767, #979797, #cacaca, #ffffff)'
+    grey: 'linear-gradient(193deg, rgba(255,255,255,1) 0%, rgba(184,184,184,1) 10%, rgba(88,88,88,1) 53%, rgba(85,85,85,1) 65%, rgba(85,85,85,1) 93%)'
   }
 }
 

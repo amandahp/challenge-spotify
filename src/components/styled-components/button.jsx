@@ -5,13 +5,16 @@ export const Button = styled.button`
     background-color: ${theme.backgroundColor.primary};
     color: ${theme.color.grey};
     width:  ${theme.baseValueToRem(116)};
-    height: ${theme.baseValueToRem(31)};
+    height: ${theme.baseValueToRem(33)};
     border-radius: ${theme.baseValueToRem(6)};
+    left: 64%;
+    position: absolute;
+    transform: translateX(-50%);
     border: none;
     cursor: pointer;
     &:hover{
       outline: none;
-      transform: scale(1.1);
+      
     }
     &:focus{
       outline: none;

@@ -1,12 +1,25 @@
 import styled from 'styled-components'
 
+export const Box = styled.div`
+  ${({ theme }) => `
+  width: 100%;
+  position: absolute;
+  margin-top:  ${theme.baseValueToRem(70)};
+  
+`}
+`
+
 export const Container = styled.div`
   ${({ theme }) => `
+  background-color: ${theme.backgroundColor.primary};
     color: ${theme.color.default};
-    width:  ${theme.baseValueToRem(447)};
-    height: ${theme.baseValueToRem(321)};
-    position: relative;
+    width:  ${theme.baseValueToRem(500)};
+    height: ${theme.baseValueToRem(340)};
     z-index: 101;
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
   `}
 `
 export const Filter = styled.div`
@@ -14,10 +27,11 @@ export const Filter = styled.div`
     background-color: ${theme.backgroundColor.primary};
     filter: blur(${theme.baseValueToRem(4)});
     position: absolute;
-    left: ${theme.baseValueToRem(0)};
-    top: ${theme.baseValueToRem(50)};
     z-index: 100;
-    width:  ${theme.baseValueToRem(447)};
-    height: ${theme.baseValueToRem(321)};
+    width:  ${theme.baseValueToRem(500)};
+    height: ${theme.baseValueToRem(340)};
+   
+    left: 50%;
+    transform: translateX(-50%);
   `}
 `

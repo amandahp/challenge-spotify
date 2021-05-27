@@ -1,12 +1,13 @@
 import React from 'react'
 
-import { Container, Filter } from './styled-components'
+import { Container, Filter, Box } from './styled-components'
 
 export const ContainerGroup = (props) => {
   return (
     <>
-      <Container {...props}>{props.children}</Container>
-      <Filter></Filter>
+      <Box>
+        <Container {...props}>{props.children}</Container>
+      </Box>
     </>
   )
 }
