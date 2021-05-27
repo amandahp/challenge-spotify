@@ -8,9 +8,7 @@ export const Slider = styled.div`
       margin-top: ${theme.baseValueToRem(50)};
     };
     .slick-list{
-      background-image: ${theme.backgroundColor.grey};
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      background-color: ${theme.backgroundColor.grey};
       width:  ${theme.baseValueToRem(169)};
       height: ${theme.baseValueToRem(265)};
       margin-left: ${theme.baseValueToRem(114)};
@@ -27,7 +25,7 @@ export const Slider = styled.div`
     };
     .slick-next:before, .slick-prev:before {
       opacity: .75;
-      color: ${theme.color.grey};
+      color: ${theme.color.dark};
     }
     
   `}

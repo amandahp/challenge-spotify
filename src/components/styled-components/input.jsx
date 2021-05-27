@@ -2,9 +2,8 @@ import styled from 'styled-components'
 
 export const Input = styled.input`
   ${({ theme }) => `      
-    background-image: ${theme.backgroundColor.grey};
-    background-repeat: no-repeat;
-    color: ${theme.color.tertiary};
+    background-color: ${theme.backgroundColor.grey};
+    color: ${theme.color.primary};
     width:  ${theme.baseValueToRem(375)};
     height: ${theme.baseValueToRem(31)};
     border-radius: ${theme.baseValueToRem(6)};

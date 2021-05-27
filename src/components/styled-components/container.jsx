@@ -15,11 +15,10 @@ export const Container = styled.div`
     color: ${theme.color.default};
     width:  ${theme.baseValueToRem(500)};
     height: ${theme.baseValueToRem(340)};
-    z-index: 101;
     position: absolute;
-
     left: 50%;
     transform: translateX(-50%);
+    border-radius: ${theme.baseValueToRem(6)};
   `}
 `
 export const Filter = styled.div`

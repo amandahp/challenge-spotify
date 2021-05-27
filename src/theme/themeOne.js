@@ -10,6 +10,7 @@ const defaultValues = {
     tertiary: '#1A1F1F',
     default: '#FFF',
     grey: '#808080',
+    dark: '#000000',
     background:
       'linear-gradient(108.15deg, #000000 8.8%, #051937 100.55%), #051937'
   },
@@ -17,10 +18,11 @@ const defaultValues = {
   backgroundColor: {
     primary: '#00D856',
     secondary:
-      'linear-gradient(207deg, rgba(2,0,36,1) 13%, rgba(0,0,0,1) 51%);',
+      ' linear-gradient(220deg, rgba(2,14,6,1) 36%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%)',
     tertiary: '#1A1F1F',
     default: '#FFF',
-    grey: 'linear-gradient(193deg, rgba(255,255,255,1) 0%, rgba(184,184,184,1) 10%, rgba(88,88,88,1) 53%, rgba(85,85,85,1) 65%, rgba(85,85,85,1) 93%)'
+    grey: '#282828',
+    dark: '#000000'
   }
 }
 
