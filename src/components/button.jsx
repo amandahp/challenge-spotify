@@ -5,7 +5,9 @@ import { Button } from './styled-components'
 export const ButtonSearch = (props) => {
   return (
     <>
-      <Button {...props}>{props.children}</Button>
+      <Button type="button" {...props}>
+        {props.children}
+      </Button>
     </>
   )
 }
