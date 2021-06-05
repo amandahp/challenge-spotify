@@ -16,7 +16,7 @@ export const searchSong = async (songName) => {
     grant_type: 'client_credentials'
   }
   const tokenResponse = await axios.post(
-    `https://accounts.spotify.com/api/token`,
+    `${process.env.REACT_APP_SPOTIFY_GET_TOKEN}`,
     qs.stringify(data),
     tokenHeaders
   )
