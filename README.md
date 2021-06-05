@@ -1,7 +1,7 @@
 ## Descrição do Projeto / Project description
-<p align="center"> PT: Criação de uma tela, consumindo a seguinte API (https://testfrontend.pontte.com.br/) </p>
+<p align="center"> PT: Criação de uma tela, consumindo a seguinte API (https://api.spotify.com/) </p>
 <p align="center">PT: Caminho de acesso a aplicação: http://localhost:3000/ </p>
-<p align="center"> EN: Creation of a screen, consuming API (https://testfrontend.pontte.com.br/) </p>
+<p align="center"> EN: Creation of a screen, consuming API (https://api.spotify.com/) </p>
 <p align="center">EN: Application access path: http://localhost:3000</p>
 <p>Demonstração/ Demonstration:</p>
 
